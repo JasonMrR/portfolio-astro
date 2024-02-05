@@ -1,0 +1,224 @@
+{
+  "basics": {
+    "name": "Jason Morales Rodriguez",
+    "label": "Results-Driven Software Developer with 1 year of experience in Web Development, Internal Applications, and Innovative Problem-Solving",
+    "image": "./assets/jason-photo.jpeg",
+    "email": "jasonework.00@gmail.com",
+    "phone": "(341) 106-1234",
+    "url": "",
+    "summary": "A seasoned professional in Computer Systems Engineering, I bring a robust educational foundation that underscores my passion for addressing intricate technical challenges. My enthusiasm for the field is evident in my dedication to continuous learning and improvement. While my educational background has equipped me with a solid theoretical understanding, I am eager to enhance my skills through hands-on experience and exposure to more complex projects. I am a firm believer in the power of collaboration and look forward to working alongside industry experts to further refine my expertise.",
+    "location": {
+      "address": "",
+      "postalCode": "CP 44100",
+      "city": "Guadalajara",
+      "countryCode": "MX",
+      "region": "Jalisco"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Jason Morales",
+        "url": "https://www.linkedin.com/in/jason-morales-rodriguez-689a6427a"
+      },
+      {
+        "network": "Github",
+        "username": "Jason Morales",
+        "url": "https://github.com/JasonMrR"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Magitlan",
+      "position": "Software Developer",
+      "url": "",
+      "startDate": "2023-01-10",
+      "endDate": "2024-01-30",
+      "summary": "As a Software Developer at Magitlan, I played a key role in enhancing the company's technological infrastructure. I specialized in creating dynamic web pages and developing internal applications, contributing significantly to the optimization of daily operations.",
+      "highlights": [
+        "Initiated and led the development of a new web-based platform, streamlining internal processes",
+        "Collaborated with cross-functional teams to identify and address software issues, ensuring seamless functionality",
+        "Implemented innovative solutions that improved the overall efficiency of existing systems",
+        "Provided technical expertise and support to team members, fostering a collaborative and productive work environment"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Cd. Guzmán Technological Institute",
+      "url": "https://www.cdguzman.tecnm.mx",
+      "area": "Bachelor's degree in computer systems",
+      "studyType": "Bachelor",
+      "startDate": "2018-08-20",
+      "endDate": "2023-12-03",
+      "score": "9.5",
+      "courses": [
+        "DB1101 - Basic SQL",
+        "Java Programming",
+        "HTML and CSS Fundamentals",
+        "JavaScript Essentials",
+        "Advanced SQL Techniques",
+        "SQLite Database Management",
+        "Firebase Development",
+        "Introduction to Software Development",
+        "Web Application Development",
+        "Mobile App Development",
+        "Software Engineering Principles"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "HTML and CSS in Depth",
+      "date": "2023-09-01",
+      "issuer": "Meta",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/QRZQ742DK63Z"
+    },
+    {
+      "name": "React Native",
+      "date": "2023-09-15",
+      "issuer": "Meta",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/Y2US7F5Z6PLT"
+    },
+    {
+      "name": "Advanced React",
+      "date": "2023-08-20",
+      "issuer": "Meta",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/XY4CVWZ9Z8SU"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "React.js",
+      "level": "Junior",
+      "keywords": ["Front-end Framework", "User Interface"]
+    },
+    {
+      "name": "HTML",
+      "level": "Junior",
+      "keywords": ["Web Development", "Markup Language"]
+    },
+    {
+      "name": "CSS",
+      "level": "Junior",
+      "keywords": ["Web Styling", "Responsive Design"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Junior",
+      "keywords": ["Web Development", "Front-end", "Scripting"]
+    },
+    {
+      "name": "Java",
+      "level": "Junior",
+      "keywords": ["Backend Development", "Object-Oriented Programming"]
+    },
+    {
+      "name": "React Native",
+      "level": "Junior",
+      "keywords": ["Mobile App Development", "Cross-platform"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Junior",
+      "keywords": ["Version Control", "Collaboration"]
+    },
+    {
+      "name": "Git",
+      "level": "Junior",
+      "keywords": ["Version Control", "Source Code Management"]
+    },
+    {
+      "name": "SQL",
+      "level": "Junior",
+      "keywords": ["Database Management", "Structured Query Language"]
+    },
+    {
+      "name": "SQLite",
+      "level": "Junior",
+      "keywords": ["Database Management", "Mobile App Development"]
+    },
+    {
+      "name": "Firebase",
+      "level": "Junior",
+      "keywords": ["Backend as a Service", "Cloud Computing"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Intermediate (B1)"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Basketball",
+      "keywords": ["Playing", "Watching", "NBA"]
+    },
+    {
+      "name": "Artificial Intelligence",
+      "keywords": ["Machine Learning", "AI Ethics", "Natural Language Processing"]
+    },
+    {
+      "name": "Healthy Lifestyle",
+      "keywords": ["Nutrition", "Fitness", "Wellness"]
+    },
+    {
+      "name": "Gym",
+      "keywords": ["Strength Training", "Cardio", "Workouts"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Encriptador Enigma",
+      "startDate": "2024-01-01",
+      "endDate": "2024-02-05",
+      "description": "Secure message encoding/decoding, cryptography-inspired.",
+      "highlights": ["Coding/Decoding", "Unique Aesthetics"],
+      "url": "https://github.com/JasonMrR/encriptador-enigma"
+    },
+    {
+      "name": "Number Guessing Game Project",
+      "startDate": "2023-01-15",
+      "endDate": "2024-01-30",
+      "description": "Web-based game for guessing numbers, responsive design.",
+      "highlights": ["Interactive", "Responsive"],
+      "url": "https://github.com/tuusuario/juego-adivinanza-numeros"
+    },
+    {
+      "name": "Water Purification System Project",
+      "startDate": "2022-05-05",
+      "endDate": "2022-05-15",
+      "description": "Water purification system, mobile app, ITCG Challenge winner.",
+      "highlights": ["ITCG Winner"],
+      "url": ""
+    }
+  ]      
+}

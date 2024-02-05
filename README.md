@@ -1,54 +1,50 @@
-# Astro Starter Kit: Basics
+# Dynamic CV Generator
 
-```sh
-npm create astro@latest -- --template basics
-```
+## Overview
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+Dynamic CV Generator is a customizable resume template created with Astro, designed for easy cloning and personalization. With minimal effort, individuals can use this template to create their professional CV by simply updating the information in the `cv.json` file.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Features
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+- **Astro Framework:** Built with Astro for efficient static site generation.
+- **Easy Customization:** Clone the repository and update the `cv.json` file with your information.
+- **Structured Sections:** Organized sections for work experience, education, skills, certifications, projects, and more.
+- **Responsive Design:** Ensures a consistent and user-friendly experience across various devices.
 
-## 🚀 Project Structure
+## Getting Started
 
-Inside of your Astro project, you'll see the following folders and files:
+1. **Clone the Repository:**
+   ```
+   git clone https://github.com/JasonMrR/portfolio-astro.git
+   ```
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+2. **Update `cv.json`:**
+   - Open the `cv.json` file.
+   - Replace placeholder data with your personal information.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+3. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+4. **Run Locally:**
+   ```bash
+   npm run dev
+   ```
 
-Any static assets, like images, can be placed in the `public/` directory.
+5. **Generate Static Site:**
+   ```bash
+   npm run build
+   ```
 
-## 🧞 Commands
+## Deployment
 
-All commands are run from the root of the project, from a terminal:
+Deploy your personalized CV by hosting the generated static site on platforms like Netlify, Vercel, or GitHub Pages.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## Customize Further
 
-## 👀 Want to learn more?
+Feel free to customize the design, add new sections, or enhance the template to suit your preferences. Refer to the Astro documentation for more details.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

@@ -1,0 +1,153 @@
+---
+import { basics } from '../../../cv.json'
+import Section from '../Section.astro'
+import Globe from '../icons/Globe.astro'
+import Email from '../icons/Email.astro'
+import Phone from '../icons/Phone.astro'
+import Linkedin from '../icons/Linkedin.astro'
+import Github from '../icons/Github.astro'
+
+const {name, label, image, location, profiles, phone, email } = basics
+const {city, region, postalCode} = location
+
+---
+
+<Section>
+  <div class="container">
+    <div class="info">
+      <h1>{name}</h1>
+      <h2>{label}</h2>
+      <span>
+        <Globe/>
+        {city}, {region} {postalCode}.
+      </span>
+      <footer class="print">
+        <span>
+          {email} <br/> {phone} <br/>
+        </span>
+      </footer>
+      <footer class="no-print">
+        {
+          email && (
+            <a 
+              href={`mailto:${email}`}
+              title={`Send email to ${name}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Email />
+            </a>
+          )
+        }
+        {
+          phone && (
+            <a 
+              href={`tel:${phone}`}
+              title={`Call to ${name}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Phone />
+            </a>
+          )
+        }
+        <a 
+        href={profiles[0].network}
+        title={`visit the site ${name} in ${profiles[0].network}`}
+        target="_blank"
+        rel="noopener noreferrer">
+          <Linkedin />
+        </a>
+        <a 
+        href={profiles[1].network}
+        title={`visit the site ${name} in ${profiles[1].network}`}
+        target="_blank"
+        rel="noopener noreferrer">
+          <Github />
+        </a>
+      </footer>
+    </div>
+    <figure>
+      <img src={image} alt={name}/>
+    </figure>
+  </div>
+</Section>
+
+<style>
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+    color; #444;
+    font-weight: 300;
+    text-wrap: balance;
+    margin-bottom: 4px;
+  }
+
+  img{
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    width: 128px;
+    border-radius: 6px;
+  }
+
+  span {
+    color: #666;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.85rem;
+    letter-spacing: -0.05rem;
+  }
+
+  footer {
+    margin-top: 8px;
+    gap: 4px;
+  }
+
+  footer a {
+    color: #777;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+    padding: 2px;
+    height: 32px;
+    width: 32px;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  footer a:hover {
+    background-color: #eee;
+  }
+
+  .print {
+    display: none;
+  }
+  @media print {
+    .no-print {
+        display: none;
+    }
+    .print {
+      display: flex;
+    }
+  }
+
+  @media (width < 600px) {
+    .container {
+      flex-wrap: wrap-reverse;
+    }
+    figure {
+      margin-top: 12px;
+    }
+  }
+
+</style>
