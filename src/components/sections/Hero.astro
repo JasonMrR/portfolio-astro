@@ -1,4 +1,6 @@
 ---
+import { Image } from 'astro:assets'
+import Profile from '../../../assets/jason-photo.jpeg'
 import { basics } from '../../../cv.json'
 import Section from '../Section.astro'
 import Globe from '../icons/Globe.astro'
@@ -7,7 +9,7 @@ import Phone from '../icons/Phone.astro'
 import Linkedin from '../icons/Linkedin.astro'
 import Github from '../icons/Github.astro'
 
-const {name, label, image, location, profiles, phone, email } = basics
+const {name, label, location, profiles, phone, email } = basics
 const {city, region, postalCode} = location
 
 ---
@@ -68,7 +70,7 @@ const {city, region, postalCode} = location
       </footer>
     </div>
     <figure>
-      <img src={image} alt={name}/>
+      <Image class="img" src={Profile} alt={name}/>
     </figure>
   </div>
 </Section>
@@ -91,10 +93,11 @@ const {city, region, postalCode} = location
     margin-bottom: 4px;
   }
 
-  img{
+  .img{
     aspect-ratio: 1/1;
     object-fit: cover;
     width: 128px;
+    height: 128px;
     border-radius: 6px;
   }
 
